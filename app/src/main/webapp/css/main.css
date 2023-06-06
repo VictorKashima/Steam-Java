@@ -71,10 +71,6 @@ td {
     padding: 0 2rem;
 }
 
-tablerow {
-    margin-bottom: 2rem;
-}
-
 .bottom-menu {
     width: max-content;
     display: flex;
@@ -117,4 +113,12 @@ form {
     display: flex;
     flex-direction: column;
     gap: .5rem;
+}
+
+@media screen and (max-width: 800px) {
+
+    html {
+        font-size: 10px;
+    }
+
 }
