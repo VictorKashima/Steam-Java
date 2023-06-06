@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #EEF;
+    --background-color: linear-gradient(#002, #001);
+}
+
+html,
+a,
+input {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+}
+
+body {
+    min-height: 100vh;
+    background: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    background: none;
+    border: 1px solid aqua;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    width: min-content;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+}
+
+button:hover,
+.button:hover {
+    cursor: pointer;
+}
+
+.button {
+    padding: .5rem 2rem;
+    border-radius: 8px;
+    background: #0AF;
+    font-weight: bolder;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: .5rem 2rem;
+}
+
+th,
+td {
+    padding: 0 2rem;
+}
+
+tablerow {
+    margin-bottom: 2rem;
+}
+
+.bottom-menu {
+    width: max-content;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.back {
+    background: gray;
+}
+
+.delete {
+    background: #E00;
+}
+
+.submit {
+    background: #0E0;
+}
+
+.insert {
+    background: #FA0;
+}
+
+.update {
+    background: #00F;
+}
+
+form {
+    min-width: 50%;
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
